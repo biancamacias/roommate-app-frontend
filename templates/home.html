@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roommate Finder</title>
+</head>
+<body>
+<!-- {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %} -->
+    <h1>Landing Page</h1>
+    <h2>Welcome to Roommate Finder!</h2>
+<form action="/login" method="GET">
+  <input type="submit" name="login" value = "Login"/></form>
+</br>
+<div id="submit_button_container"></div>
+<form action="/register" method="GET">
+  <input type="submit" name="register" value = "Register"/></form>
+</form>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<script src="../src/submit_button.js"></script>
+</body>
+</html>
