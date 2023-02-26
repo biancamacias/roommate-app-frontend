@@ -2,6 +2,10 @@
 
 This is the frontend code for the roommate appp hosted at https://github.com/juliawnyu/roommate-app.
 
+## To Get Started
+
+* Make sure you have Node.js installed
+
 ## Specs
 
 This repository will host frontend code which will include the following:
